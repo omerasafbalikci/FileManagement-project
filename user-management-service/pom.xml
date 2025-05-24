@@ -9,9 +9,9 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>file-service</artifactId>
-	<name>file-service</name>
-	<description>File Service</description>
+	<artifactId>user-management-service</artifactId>
+	<name>user-management-service</name>
+	<description>User Management Service</description>
 
 	<url/>
 	<licenses>
@@ -63,7 +63,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-redis</artifactId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 	</dependencies>
 
